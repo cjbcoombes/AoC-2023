@@ -1,0 +1,72 @@
+# My input, rearranged
+
+broadcaster -> bt, rc, qs, qt
+&jz -> rx
+
+# broadcaster -> qt
+# Counts to 0b111100000111 = ?
+%qt -> qx, xk
+%xk -> td, qx
+%td -> sr, qx
+%sr -> hf
+%hf -> nh
+%nh -> lh
+%lh -> mj
+%mj -> zm
+%zm -> dv, qx
+%dv -> sl, qx
+%sl -> pk, qx
+%pk -> qx
+&qx -> lh, vf, hf, nh, sr, mj, qt
+&vf -> jz
+
+# broadcaster -> rc
+# Counts to 0b111111111011 = ?
+%rc -> gz, jg
+%gz -> vj, jg
+%vj -> qh
+%qh -> hc, jg
+%hc -> jg, ks
+%ks -> jg, jd
+%jd -> lv, jg
+%lv -> tb, jg
+%tb -> pt, jg
+%pt -> gv, jg
+%gv -> jg, mr
+%mr -> jg
+&jg -> rc, mk, vj
+&mk -> jz
+
+# broadcaster -> qs
+# Counts to 0b111110100001 = ?
+%qs -> rp, pn
+%rp -> gs
+%gs -> bg
+%bg -> bk
+%bk -> rs
+%rs -> pn, dk
+%dk -> kx
+%kx -> pn, gj
+%gj -> pn, nf
+%nf -> dm, pn
+%dm -> rm, pn
+%rm -> pn
+&pn -> dh, dk, bg, qs, rp, bk, gs
+&dh -> jz
+
+# broadcaster -> bt
+# Counts to 0b111101010011 = ?
+%bt -> pv, zt
+%pv -> jq, zt
+%jq -> nd
+%nd -> qf
+%qf -> gm, zt
+%gm -> jv
+%jv -> jh, zt
+%jh -> cg
+%cg -> mz, zt
+%mz -> dc, zt
+%dc -> zt, db
+%db -> zt
+&zt -> jq, rn, nd, bt, jh, gm
+&rn -> jz
