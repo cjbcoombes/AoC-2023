@@ -8,3 +8,6 @@ It's fun though.
 > *A monad is a monoid in the category of endofunctors* \
 > \
 > Yeah, me neither.
+
+## Files
+Files are labeled `dXXpY.hs`, where XX is the day and Y is the problem. Generally later days are harder. There were two problems per day, you can see them on the Advent of Code website: [https://adventofcode.com/2023](https://adventofcode.com/2023).
